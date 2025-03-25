@@ -22,3 +22,4 @@ return response.end(`
   `);
 }
 // 🔧 Wyeksportuj funkcję 'logoutRouting', aby inne moduł mogły jej używać.
+module.exports = { logoutRouting };
