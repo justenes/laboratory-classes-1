@@ -4,4 +4,4 @@ const STATUS_CODE =  {
     NOT_FOUND: 404
 };
 // 🔧 Wyeksportuj STATUS_CODE, który przechowuje kody statusu HTTP.
-modele.exports = { STATUS_CODE };
+module.exports = { STATUS_CODE };
