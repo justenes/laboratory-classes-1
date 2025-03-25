@@ -4,7 +4,7 @@ const http = require('http');
 const{ PORT } = require('./config');
 
 // 📦 Zaimportuj funkcję 'requestRouting' z modułu 'routing/routing.js'.
-const { requestRouting } = requiere('./routing/routing');
+const { requestRouting } = require('./routing/routing');
 // 🏗 Tutaj, stwórz funkcję 'requestListener, która przekazuje 'request' i 'response' do 'requestRouting'.
 const requestListener = (request, response) =>{
     requestRouting(request, response);
