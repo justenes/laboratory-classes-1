@@ -22,4 +22,4 @@ return response.end(`
 }
 
 // 🔧 Wyeksportuj funkcję 'homeRouting', aby inne moduł mogły jej używać.
-modele.exports = {homeRouting};
+module.exports = { homeRouting };
